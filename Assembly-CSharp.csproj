@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\code\AudioManager.cs" />
     <Compile Include="Assets\code\ControllerScript.cs" />
+    <Compile Include="Assets\code\ObjectReact.cs" />
     <Compile Include="Assets\code\Player.cs" />
     <None Include="Assets\IceMaterial\Shader\Ice.shader" />
     <None Include="Assets\QS\QS-Textures-Grass-v1\Documentation\Readme.txt" />

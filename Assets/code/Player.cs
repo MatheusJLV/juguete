@@ -21,44 +21,49 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         { // Move left
-
+            rb.AddForce(Vector3.right* -100);
+            /*
             var newPos = trans.position;
             newPos.x -= 1;
             trans.position = newPos;
+            */
 
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         { // Move Right
-
+            rb.AddForce(Vector3.right * 100);
+            /*
             var newPos = trans.position;
             newPos.x += 1;
             trans.position = newPos;
-
+            */
 
         }
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
         { // Move down
-
+            rb.AddForce(Vector3.forward * -100);
+            /*
             var newPos = trans.position;
             newPos.z -= 1;
             trans.position = newPos;
+            */
 
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         { // Move up
-
+            rb.AddForce(Vector3.forward * 100);
+            /*
             var newPos = trans.position;
             newPos.z += 1;
             trans.position = newPos;
-
-
+            */
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(transform.up*jump);
+            rb.AddForce(Vector3.up*jump);
         }
     }
 }

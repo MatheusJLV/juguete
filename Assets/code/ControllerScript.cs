@@ -9,9 +9,10 @@ using UnityEngine;
  * Add materials            DONE
  * add physics/colliders    DONE
  * add obstacles            DONE
- * add effects on collision
- * add movement
- * enjoy
+ * add effects on collision DONE
+ * add movement             DONE    
+ * enjoy                    : 3
+ * 
 */
 public class ControllerScript : MonoBehaviour
 {
